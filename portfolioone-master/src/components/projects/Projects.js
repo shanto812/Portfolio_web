@@ -8,13 +8,13 @@ const Projects = () => {
     <section
       id="projects"
       // বর্ডার কালার কালো থেকে সরিয়ে আপনার থিম কালার অনুযায়ী subtle করা হয়েছে
-      className="w-full py-20 border-b-[1px] border-b-[#c31432]/20"
+      className="w-full py-20 border-b-[1px] border-b-[#ffff]/50"
     >
       <div className="flex justify-center items-center text-center">
         {/* টাইটেল সেকশনে থিম কালার সেট করা হয়েছে */}
         <Title
           title={
-            <span className="text-[#c31432] tracking-wide uppercase">
+            <span className="text-[#ffffff] tracking-wide uppercase">
               VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
             </span>
           }

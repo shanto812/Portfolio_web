@@ -11,10 +11,12 @@ const Achievement = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
+          {/* Updated: Subtitle color to Crimson Red */}
+          <p className="text-sm text-[#c31432] tracking-[4px]">2007 - 2010</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-200">Company Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        {/* Updated: Timeline border color from black to Crimson with low opacity */}
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-[#ffff]/50 flex flex-col gap-10">
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
             subTitle="Lorem ipsum dolor sit amet alternative."
@@ -37,10 +39,12 @@ const Achievement = () => {
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          {/* Updated: Subtitle color to Crimson Red */}
+          <p className="text-sm text-[#c31432] tracking-[4px]">2007 - 2010</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-200">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        {/* Updated: Timeline border color to match the theme */}
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-[#ffff]/50 flex flex-col gap-10">
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
             subTitle="Lorem ipsum dolor sit amet alternative."
