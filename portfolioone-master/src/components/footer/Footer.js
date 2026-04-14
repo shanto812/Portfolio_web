@@ -32,7 +32,7 @@ const Footer = () => {
             <a 
               key={item} 
               href={`#${item.toLowerCase()}`}
-              className="text-gray-10 hover:text-white text-sm uppercase tracking-[4px] font-medium transition-all duration-300 relative group"
+              className="text-gray-11 hover:text-white text-sm uppercase tracking-[4px] font-medium transition-all duration-300 relative group"
             >
               {item}
               <span className="absolute -bottom-2 left-0 w-0 h-[1px] bg-[#8b1e2d] transition-all duration-300 group-hover:w-full"></span>
