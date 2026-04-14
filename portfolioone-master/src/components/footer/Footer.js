@@ -28,11 +28,11 @@ const Footer = () => {
 
         {/* Floating Links */}
         <nav className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12">
-          {["Home", "Projects", "Skills", "Contact"].map((item) => (
+          {["Home", "Projects", "Features", "Contact"].map((item) => (
             <a 
               key={item} 
               href={`#${item.toLowerCase()}`}
-              className="text-gray-400 hover:text-white text-sm uppercase tracking-[4px] font-medium transition-all duration-300 relative group"
+              className="text-gray-10 hover:text-white text-sm uppercase tracking-[4px] font-medium transition-all duration-300 relative group"
             >
               {item}
               <span className="absolute -bottom-2 left-0 w-0 h-[1px] bg-[#8b1e2d] transition-all duration-300 group-hover:w-full"></span>
@@ -41,20 +41,28 @@ const Footer = () => {
         </nav>
 
         {/* Social Icons */}
-        <div className="flex gap-8 mb-16">
-          {[<FaFacebookF />, <FaTwitter />, <FaLinkedinIn />, <FaGithub />].map((icon, index) => (
-            <span 
-              key={index}
-              className="text-gray-500 hover:text-[#8b1e2d] text-xl transform hover:-translate-y-2 transition-all duration-300 cursor-pointer"
-            >
-              {icon}
-            </span>
-          ))}
+        <div className="flex gap-8 mb-16 ">
+         {[
+  { icon: <FaFacebookF />, link: "https://www.facebook.com/hashibul.hassan.shanto.2024/" },
+
+  { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/hasibul-hassan-shanto-b671b1361/" },
+  { icon: <FaGithub />, link: "https://github.com/shanto812" }
+].map((item, index) => (
+  <a
+    key={index}
+    href={item.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/80 hover:text-[#8b1e2d] text-xl transform hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+  >
+    {item.icon}
+  </a>
+))}
         </div>
 
         {/* Bottom Section */}
         <div className="w-full flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-6">
-          <p className="text-white/50 text-[10px] uppercase tracking-[3px]">
+          <p className="text-white/80 text-[10px] uppercase tracking-[3px]">
             © {new Date().getFullYear()} All Rights Reserved
           </p>
           

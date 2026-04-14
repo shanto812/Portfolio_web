@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       // Updated: BG matches #1a0828 and Hover matches #8b1e2d
-      className="w-14 h-12 bg-[#1a0828] hover:bg-[#8b1e2d] duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-none border border-white/5 cursor-pointer z-10"
+      className="w-14 h-12 bg-[#730ec0] hover:bg-[#110442] duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-none border border-white/5 cursor-pointer z-10"
       onClick={onClick}
     >
       <HiArrowLeft />
@@ -92,7 +92,7 @@ const Testimonial = () => {
               <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
                 
                 {/* Profile Card with New Gradient */}
-                <div className="w-full lgl:w-[35%] h-full bg-gradient-to-br from-[#1a0828] to-[#8b1e2d]/30 p-8 rounded-lg border border-white/5 flex flex-col md:flex-row lgl:flex-col gap-8 justify-center">
+                <div className="w-full lgl:w-[35%] h-full bg-gradient-to-br from-[#5f0d9e] to-[#8b1e2d]/20 p-8 rounded-lg border border-white/5 flex flex-col md:flex-row lgl:flex-col gap-8 justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover shadow-lg"
                     src={img}
@@ -113,7 +113,7 @@ const Testimonial = () => {
                 {/* Review Content with New Gradient */}
                 <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                   <img className="w-20 lgl:w-32 opacity-20" src={quote} alt="quote" />
-                  <div className="w-full h-[70%] py-10 bg-gradient-to-br from-[#1a0828] to-[#8b1e2d]/20 rounded-lg border border-white/5 p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8 shadow-shadowOne">
+                  <div className="w-full h-[70%] py-10 bg-gradient-to-br from-[#560991] to-[#8b1e2d]/20 rounded-lg border border-white/5 p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8 shadow-shadowOne">
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-[#8b1e2d]/20">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide text-gray-200">

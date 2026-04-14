@@ -45,10 +45,10 @@ const Contact = () => {
   };
 
   return (
-    <section
+    <section id='contact'
       
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center items-center text-center" >
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className="w-full mt-10">

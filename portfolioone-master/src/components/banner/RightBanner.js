@@ -16,7 +16,7 @@ const RightBanner = () => {
       <div className="relative w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10 
                       p-2 flex justify-center items-center">
           <div className="absolute inset-0 
-                          bg-gradient-to-br from-[#a811ee] to-[#8a0611]
+                          bg-gradient-to-br from-[#340472] to-[#c21a8f]
                           rounded-[60%_40%_30%_70%/_60%_30%_70%_40%] 
                           shadow-[0_20px_60px_-10px_rgba(195,20,50,0.4),0_10px_30px_-5px_rgba(36,11,54,0.3)]
                           border border-[#c31432]/20">

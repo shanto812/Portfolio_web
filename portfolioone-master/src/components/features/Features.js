@@ -23,7 +23,7 @@ const Features = () => {
          
         />
         <Card
-          title="App Development"
+          title="Web App Development"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
           icon={<AiFillAppstore />}
@@ -35,13 +35,13 @@ const Features = () => {
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
+          title="Proper Mobile View "
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
+          title="Ant Design Integration"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
           icon={<SiAntdesign />}
