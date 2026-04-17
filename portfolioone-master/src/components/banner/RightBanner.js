@@ -5,9 +5,7 @@ const RightBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative overflow-hidden lgl:overflow-visible">
       
-      {/* ইউনিক এলিমেন্ট ১: কালার গ্লো।
-        ইমেজের ঠিক পেছনে, মাঝখানে একটি খুব সফট, বড় গ্লো-ইফেক্ট, যা কালার দুটোকে সুন্দরভাবে মিশিয়ে দেবে।
-      */}
+    
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
                       w-[100%] h-[100%] lgl:w-[800px] lgl:h-[800px] 
                       bg-gradient-to-r from-[#c31432]/20 to-[#240b36]/40 
