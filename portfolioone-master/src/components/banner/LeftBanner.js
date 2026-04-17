@@ -5,8 +5,10 @@ import {
   FaLinkedinIn,
   FaReact,
   FaGithub,
+  FaHtml5,
+  FaPython,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+//import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -66,15 +68,11 @@ const LeftBanner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
+          <div className="flex gap-4">
+  <FaHtml5 />
+  <FaReact/>
+  <FaPython />
+</div>
             
           </div>
         </div>
