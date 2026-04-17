@@ -10,7 +10,7 @@ const ProjectsCard = ({ title, des, src }) => {
                     group hover:bg-gradient-to-b hover:from-[#c31432]/10 hover:to-[#240b36]/90 
                     transition-all duration-500 shadow-none">
       
-      {/* ইমেজ সেকশন - হালকা গ্লো ইফেক্ট সহ */}
+      {/* ইমেজ সেকশন - হালকা গ্লোসহ */}
       <div className="w-full h-[80%] overflow-hidden rounded-lg relative">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-500 cursor-pointer"
